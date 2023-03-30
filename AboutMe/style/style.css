@@ -1,0 +1,32 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    color: blue;
+    border-bottom-style: dotted;
+    border-width: 1em;
+}
+
+.forMe {
+    padding-top: 1em;
+    font-size: large;
+}
+
+.contact {
+    text-align: center;
+    font: bold;
+}
+
+.footer {
+    border: solid 0.1em #000;
+    margin: 5em auto;
+    bottom: 0;
+    width: 80%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
