@@ -1,0 +1,38 @@
+body {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.send{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#num, #min, #max{
+    margin: auto;
+    width: 20em;
+    height: 2em;
+    border-radius: 6px;
+    border: solid 1px;
+    font-size: medium;
+}
+
+#min, #max{
+    margin-top: 1em;
+}
+
+#botao, #botao2, #botao3{
+    font-size: medium;
+    margin: 1em auto;
+    width: 10em;
+    height: 2em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+
