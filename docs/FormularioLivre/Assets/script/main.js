@@ -3,9 +3,9 @@ let button = document.getElementById('button');
 button.addEventListener('click', () => {
   let div = document.getElementById('result');
   let nome = document.getElementById('nome').value;
-  let email = document.getElementById('email');
-  let telefone = document.getElementById('telefone');
-  let genero = document.getElementById('genero');
+  let email = document.getElementById('email').value;
+  let telefone = document.getElementById('telefone').value;
+  let genero = document.getElementById('genero').value;
 
   let textInteresse = "";
   let interesse = document.getElementsByName('interesse');
@@ -31,7 +31,7 @@ button.addEventListener('click', () => {
   
   div.style.fontSize = "1.6em";
 
-  let toString = "Nome: " + nome + "<br> Email: " + email.value + "<br> Telefone: " + telefone.value + "<br> Gênero: " + genero.value + 
+  let toString = "Nome: " + nome + "<br> Email: " + email + "<br> Telefone: " + telefone + "<br> Gênero: " + genero + 
   "<br> Data de Nascimento: " + dataNascimento + "<br> Idade: " + idade + "<br> Interesse: " + interesse + "<br> Conteúdos de interesse: " + textCheckBoxes;
 
   if (idade < 18) {
