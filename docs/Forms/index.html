@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form e Js</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Formulário e JavaScript</h1>
+        </div>
+        <div>
+            <h2>Captuando valores de Radio</h2>
+            <p>Selecione o seu Gênero</p>
+            <p>
+                Gênero:
+                <input type="radio" name="gender" value="Masculino"> Masculino
+                <input type="radio" name="gender" value="Feminino"> Feminino
+                <input type="radio" name="gender" value="Outro"> Outro
+            </p>
+            <button id="getRadio">Enviar</button>
+            <div id="radioResult"></div>
+        </div>
+
+        <div>
+            <h2>Qual elemento da select foi selecionado?</h2>
+            <p>Selecione o seu plano:</p>
+                <select id="select1">
+                    <option value="Free">Free</option>
+                    <option value="Basic">Basic</option>
+                    <option value="Premium">Premium</option>
+                </select>
+                <p>O plano selecionado é 
+                    <span class="planeResult"></span>
+                </p>
+                <button id="getPlane">
+                    Clique para ver o plano selecionado
+                </button>
+        </div>
+
+        <div>
+            <h2>Elementos Check</h2>
+            <p>Quais suas prioridades?</p>
+            <p>
+                Trabalho <input type="checkbox" value="Trabalho">
+            </p>
+            <p>
+                Estudos <input type="checkbox" value="Estudos">
+            </p>
+            <p>
+                Saúde <input type="checkbox" value="Saúde">
+            </p>
+            <button id="getPriority">
+                Enviar
+            </button>
+            <p>Minhas prioridades são 
+                <span id="priorityResult"></span>
+            </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
