@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
   if (media >= 6.0) {
     div.style.backgroundColor = "rgb(0, 255, 0)";
     div.innerHTML = "Parabéns " + nome + ", você foi aprovado com média " + media + ".";
-  } else if (media >= 2.1 || media <= 5.9) {
+  } else if (media >= 2.1 && media <= 5.9) {
     div.style.backgroundColor = "rgb(0, 0, 255)";
     div.innerHTML = nome + ", você está de recuperação com média " + media + ".";
   } else if(media < 2.0) {

@@ -52,6 +52,4 @@ button.addEventListener('click', () => {
     "encontrará o que procura. <br><br>" + toString;
 
   }
-
-
 });
