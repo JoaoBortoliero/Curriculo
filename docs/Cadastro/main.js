@@ -9,10 +9,12 @@ button.addEventListener('click', () => {
     let cell1 = row.insertCell(1);
     let cell2 = row.insertCell(2);
     let cell3 = row.insertCell(3);
+    let cell4 = row.insertCell(4);
     
     cell0.innerHTML = document.getElementById('nome').value;
     cell1.innerHTML = document.getElementById('email').value;
     cell2.innerHTML = document.getElementById('nascimento').value;   
-    cell3.innerHTML = document.querySelector('.estado').value;
+    cell3.innerHTML = document.getElementById('estado').value;
+    cell4.innerHTML = '<i class="bi bi-pencil-square"></i>';
 
 });
