@@ -6,7 +6,6 @@ function meucallback(conteudo){
         document.getElementById('uf').value = (conteudo.uf);
         document.getElementById('ibge').value = (conteudo.ibge);
     }
-
 }
 
 function pesquisaCep(valor) {
